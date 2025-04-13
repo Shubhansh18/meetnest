@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeetNest - Seamless 1:1 Meetings</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">MeetNest</h1>
+      <a href="#waitlist" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-500 transition">Join Waitlist</a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-6 mb-10 text-center">
+    <h2 class="text-4xl font-bold mb-6">One-on-One Meetings, Reinvented</h2>
+    <div class="w-full rounded-lg h-96 overflow-hidden">
+      <img src="resources\meeting_img.jpg" alt="Cover Image" class="w-full h-full object-cover" />
+    </div><br>
+    <p class="text-lg text-gray-600 mb-8">
+      MeetNest empowers teams, coaches, tutors, and support agents to connect seamlessly in private meeting rooms — with screensharing, whiteboards, and audio. Multiple 1:1 sessions, without the chaos.
+    </p>
+    <a href="#waitlist" class="bg-indigo-600 text-white px-6 py-3 rounded text-lg hover:bg-indigo-500 transition">Join the Early Access</a>
+  </main>
+
+  <section class="bg-white py-16" id="features">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Multiple Simultaneous 1-on-1s</h3>
+        <p class="text-gray-600">Create and manage multiple 1:1 sessions simultaneously. Perfect for tutoring platforms and onboarding teams.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Interactive Whiteboard and Screen Sharing</h3>
+        <p class="text-gray-600">Draw, annotate, and collaborate in real time seamlessly with our clean and simple whiteboard and screensharing.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Real-Time Admin Monitoring</h3>
+        <p class="text-gray-600">Admins can drop in to any session for quality checks, learning, or support supervision.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-16 px-10" id="waitlist">
+    <div class="max-w-md mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Get Notified When We Launch</h3>
+      <form
+        action="https://formspree.io/f/mjkylzdo"
+        method="POST"
+        class="flex flex-col space-y-4"
+      >
+        <input type="email" name="email" required placeholder="Enter your email"  class="px-4 py-2 border border-gray-300 rounded" />
+          
+        <!-- your other form fields go here -->
+        <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-500 transition">Join Waitlist</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-white py-6 text-center text-gray-500">
+    &copy; 2025 MeetNest. All rights reserved.
+  </footer>
+</body>
+</html>
